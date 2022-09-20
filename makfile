@@ -1,0 +1,8 @@
+ABC.exe:main.o big3.o fact.o
+ gcc -o ABC.exe main.0 big3.0 fact.0
+main.0:main.c
+ gcc -c main.c
+big3.o:big3.c
+ gcc -c big3.c
+fact.o:fact.c
+ gcc -c fact.o
